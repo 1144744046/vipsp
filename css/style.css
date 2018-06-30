@@ -1,0 +1,67 @@
+* {
+	padding:0;
+	margin:0;
+}
+/*body{text-align:center}*/
+.wrap {
+	width:60%;
+	margin:1% auto 0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	border:1px solid #c0c0c0;
+	width:100%;
+}
+th,td {
+	border:1px solid #d0d0d0;
+	color:#404040;
+	padding:1%;
+}
+th {
+	background-color:#09c;
+	font:bold 16px "微软雅黑";
+	color:#fff;
+}
+td {
+	font:14px "微软雅黑";
+	color:#9932CC;
+}
+tbody tr {
+	background-color:#f0f0f0;
+}
+tbody tr:hover {
+	cursor:pointer;
+	background-color:#fafafa;
+}
+.btn{
+    width: 5px 10px;
+    color: #FFF;
+    background: #FF9735;
+    border-color: #FF9735;
+}
+.container-fluid{
+    text-align: center;
+    background-color: #fff;
+}
+.logos_lists dl dt img {
+    width: 100px;
+}
+
+.logos_lists img {
+    height: 35px;
+    width:90px;
+}
+
+.logos_lists dl {
+    float: left;
+    position: relative;
+    padding: 16px 14.35px;
+    margin: 10px;
+    background: #fff;
+    border: 1px solid #ededed;
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+}
